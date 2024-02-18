@@ -119,3 +119,23 @@ export const portfolioDetails = [
         date : "Dec 19"
     }
 ]
+export const contactDetails = [
+    {
+        icon : "phone",
+        title : "Phone",
+        description : "Promising development turmoil inclusive education transformative community",
+        info : "+91 7994028594"
+    },
+    {
+        icon : "email",
+        title : "Email",
+        description : "Promising development turmoil inclusive education transformative community",
+        info : "muhammedrafeeqvr805@gmail.com"
+    },
+    {
+        icon : "place",
+        title : "Location",
+        description : "Kuttiyil (H), Varappara, Parambil Peedika PO, pin-676317",
+        info : "Malappuram"
+    }
+]

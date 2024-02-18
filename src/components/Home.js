@@ -7,6 +7,7 @@ import Experience from './Experience'
 import CountSection from './CountSection'
 import SkillExpertise from './SkillExpertise'
 import Portfolio from './Portfolio'
+import ContactSection from './ContactSection'
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
         <CountSection/>
         <SkillExpertise/>
         <Portfolio/>
+        <ContactSection/>
     </div>
   )
 }
