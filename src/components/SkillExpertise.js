@@ -12,6 +12,7 @@ const SkillExpertise = () => {
         <div className='my-5 grid grid-cols-2 gap-4'>
             {skillDetails.map((item,index)=><SkillCard key={index} data={item}/>)}
         </div>
+        
     </div>
   )
 }

@@ -6,6 +6,7 @@ import Services from './Services'
 import Experience from './Experience'
 import CountSection from './CountSection'
 import SkillExpertise from './SkillExpertise'
+import Portfolio from './Portfolio'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
         <Experience/>
         <CountSection/>
         <SkillExpertise/>
+        <Portfolio/>
     </div>
   )
 }

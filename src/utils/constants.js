@@ -105,3 +105,17 @@ export const skillDetails = [
     },
     
 ]
+export const portfolioDetails = [
+    {
+        thumbnail : "/images/thumb.png",
+        title : "Design your apps in your own way",
+        description : "This is required when, for example, the final text is not yet available.",
+        date : "Dec 19"
+    },
+    {
+        thumbnail : "/images/thumb.png",
+        title : "Design your apps in your own way",
+        description : "This is required when, for example, the final text is not yet available.",
+        date : "Dec 19"
+    }
+]
