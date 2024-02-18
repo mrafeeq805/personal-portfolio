@@ -70,3 +70,38 @@ export const countDetails = [
     },
     
 ]
+export const skillDetails = [
+    {
+        icon : "/images/react.png",
+        percentage : "97%",
+    },
+    {
+        icon : "/images/node-js.png",
+        percentage : "97%",
+    },
+    {
+        icon : "/images/html.png",
+        percentage : "97%",
+    },
+    {
+        icon : "/images/figma.png",
+        percentage : "97%",
+    },
+    {
+        icon : "/images/tailwind.png",
+        percentage : "97%",
+    },
+    {
+        icon : "/images/javascript.png",
+        percentage : "97%",
+    },
+    {
+        icon : "/images/mongodb.png",
+        percentage : "97%",
+    },
+    {
+        icon : "/images/python.png",
+        percentage : "97%",
+    },
+    
+]

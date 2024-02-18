@@ -5,6 +5,7 @@ import AboutMe from './AboutMe'
 import Services from './Services'
 import Experience from './Experience'
 import CountSection from './CountSection'
+import SkillExpertise from './SkillExpertise'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <Services/>
         <Experience/>
         <CountSection/>
+        <SkillExpertise/>
     </div>
   )
 }
