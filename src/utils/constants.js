@@ -30,3 +30,24 @@ export const serviceDetails = [
         description : "With lots of unique blocks, you can easily build a page without coding"
     }
 ]
+export const workDetails = [
+    {
+        title : "UX Designer",
+        role : "Vivo - Senior Designer",
+        year : "2022-2023",
+        description : "With lots of unique blocks, you can easily build a page without coding"
+    },
+    {
+        title : "Web Developer",
+        role : "Oppo - HR Manager",
+        year : "2022-2023",
+        description : "With lots of unique blocks, you can easily build a page without coding"
+    },
+    {
+        title : "Graphic Designer",
+        role : "Apple - Tester",
+        year : "2022-2023",
+        description : "With lots of unique blocks, you can easily build a page without coding"
+    },
+    
+]
