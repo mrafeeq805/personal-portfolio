@@ -51,3 +51,22 @@ export const workDetails = [
     },
     
 ]
+export const countDetails = [
+    {
+        title : "Happy Clients",
+        count : "97%",
+    },
+    {
+        title : "Traffic",
+        count : "36 M",
+    },
+    {
+        title : "Happy Users",
+        count : "3621 +",
+    },
+    {
+        title : "Years of Exp",
+        count : "3 +",
+    },
+    
+]
