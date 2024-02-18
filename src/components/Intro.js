@@ -2,13 +2,8 @@ import React from "react";
 
 const Intro = () => {
 	return (
-		<div className="bg-slate-300 relative">
-			<img
-				className="h-[600px] w-full object-cover bg-gradient-to-r  from-black"
-				src="/images/bg.jpg"
-				alt="bg"
-			/>
-			<div className="absolute top-5 w-full flex justify-center items-center flex-col">
+		<div className="bg-slate-300 bg-[url('bg.jpg')]">
+			<div className="pt-12 pb-32 w-full flex justify-center items-center flex-col">
 				<div className=" bg-white border-white rounded-full h-56 w-56 flex justify-center items-center p-1">
 					<img
 						className="h-full w-full rounded-full object-cover"

@@ -1,20 +1,33 @@
 import React from 'react'
+import Summary from './Summary';
 
 const AboutMe = () => {
   return (
-    <div className='bg-white p-4 rounded-xl -mt-16 z-10 absolute w-11/12 left-4 right-4'>
-        <div className='border-2 bg-slate-50 rounded-xl p-4'>
-            <span>Personal Details</span>
-            <div></div>
-            <div className='flex flex-col gap-2 mt-2'>
-                <span className='text-sm text-gray-500'>Email: <span className='text-sm text-gray-400'>muhammedrafeeqvr805@gmail.com</span></span>
-                <span className='text-sm text-gray-500'>Phone: <span className='text-sm text-gray-400'>+91 799402859</span></span>
-                <span className='text-sm text-gray-500'>Place: <span className='text-sm text-gray-400'>Malappuram</span></span>
-            </div>
-            
-        </div>
-    </div>
-  )
+	<div className='px-3 -mt-20'>
+		<div className="bg-white p-4 rounded-xl  w-full shadow-md shadow-gray-500 my-5">
+			<div className="border-2 bg-slate-50 rounded-xl p-4">
+				<span>Personal Details</span>
+				<div></div>
+				<div className="flex flex-col gap-2 mt-2">
+					<span className="text-sm text-gray-500">
+						Email:{" "}
+						<span className="text-sm text-gray-400">
+							muhammedrafeeqvr805@gmail.com
+						</span>
+					</span>
+					<span className="text-sm text-gray-500">
+						Phone: <span className="text-sm text-gray-400">+91 799402859</span>
+					</span>
+					<span className="text-sm text-gray-500">
+						Place: <span className="text-sm text-gray-400">Malappuram</span>
+					</span>
+				</div>
+			</div>
+			<Summary/>
+		</div>
+	</div>
+		
+	);
 }
 
 export default AboutMe
