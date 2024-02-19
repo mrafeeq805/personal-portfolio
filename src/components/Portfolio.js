@@ -9,7 +9,7 @@ const Portfolio = () => {
             <h1 className='text-3xl font-medium '>My Works & Portfolio</h1>
             <p className='text-gray-400 mt-3'>Obviously I'am a Web Developer. Experienced with all stages of the development cycle for dynamic web projects.</p>
         </div>
-        <div className='my-5 grid grid-cols- gap-4'>
+        <div className='my-5 grid grid-cols-1 md:grid-cols-3 gap-4'>
             {portfolioDetails.map((item,index)=><PortfolioCard key={index} data={item}/>)}
         </div>
         <div className='w-full flex items-center justify-center'>

@@ -110,14 +110,30 @@ export const portfolioDetails = [
         thumbnail : "/images/thumb.png",
         title : "Design your apps in your own way",
         description : "This is required when, for example, the final text is not yet available.",
-        date : "Dec 19"
+        date : "Dec 19",
+        live : "",
+        github : "",
+        tags : [
+            "React JS",
+            "Node JS",
+            "Tailwind",
+            "MongoDB"
+        ]
     },
     {
         thumbnail : "/images/thumb.png",
         title : "Design your apps in your own way",
         description : "This is required when, for example, the final text is not yet available.",
-        date : "Dec 19"
-    }
+        date : "Dec 19",
+        live : "",
+        github : "",
+        tags : [
+            "Javascript",
+            "Node JS",
+            "Tailwind",
+            "MongoDB"
+        ]
+    },
 ]
 export const contactDetails = [
     {

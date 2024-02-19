@@ -10,6 +10,7 @@ import Portfolio from './Portfolio'
 import ContactSection from './ContactSection'
 import ContactForm from './ContactForm'
 import SocialInfo from './SocialInfo'
+import Footer from './Footer'
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
         <ContactSection/>
         <ContactForm/>
         <SocialInfo/>
+        <Footer/>
     </div>
   )
 }

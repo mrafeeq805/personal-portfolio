@@ -9,7 +9,7 @@ const Services = () => {
             <h1 className='text-3xl font-medium '>Awesome Service</h1>
             <p className='text-gray-400 mt-3'>Obviously I'am a Web Developer. Experienced with all stages of the development cycle for dynamic web projects.</p>
         </div>
-        <div className='my-5'>
+        <div className='my-5 grid gap-3 md:grid-cols-3 md:gap-5'>
             {serviceDetails.map((item,index)=><ServiceCard key={index} data={item}/>)}
         </div>
     </div>
