@@ -139,3 +139,25 @@ export const contactDetails = [
         info : "Malappuram"
     }
 ]
+export const socialDetail = [
+    {
+        icon : "/images/github.png",
+        link : "https://github.com/mrafeeqvr805"
+    },
+    {
+        icon : "/images/twi.png",
+        link : "https://github.com/mrafeeqvr805"
+    },
+    {
+        icon : "/images/face.png",
+        link : "https://github.com/mrafeeqvr805"
+    },
+    {
+        icon : "/images/linkedin.png",
+        link : "https://github.com/mrafeeqvr805"
+    },
+    {
+        icon : "/images/insta.png",
+        link : "https://github.com/mrafeeqvr805"
+    }
+]

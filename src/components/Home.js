@@ -9,6 +9,7 @@ import SkillExpertise from './SkillExpertise'
 import Portfolio from './Portfolio'
 import ContactSection from './ContactSection'
 import ContactForm from './ContactForm'
+import SocialInfo from './SocialInfo'
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
         <Portfolio/>
         <ContactSection/>
         <ContactForm/>
+        <SocialInfo/>
     </div>
   )
 }
