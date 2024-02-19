@@ -8,6 +8,7 @@ import CountSection from './CountSection'
 import SkillExpertise from './SkillExpertise'
 import Portfolio from './Portfolio'
 import ContactSection from './ContactSection'
+import ContactForm from './ContactForm'
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
         <SkillExpertise/>
         <Portfolio/>
         <ContactSection/>
+        <ContactForm/>
     </div>
   )
 }
